@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Check Negative Scenarios">
+    <parameter name="browser" value=""/>
+<!--    <test name="Check Login With inValid UserID">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC01_Login">-->
+<!--                <methods>-->
+<!--                    <include name="checkLoginwithinvaliduser_N"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Check Login With inValid Password">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC01_Login">-->
+<!--                <methods>-->
+<!--                    <include name="checkLoginwithinvalidpassword_N"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+    <test name="Check Login With inValid Password and UserID">
+        <classes>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="checkLoginwithinvaliddata_N"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
