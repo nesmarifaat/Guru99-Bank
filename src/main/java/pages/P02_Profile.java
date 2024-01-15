@@ -80,5 +80,20 @@ public class P02_Profile {
         return this;
     }
 
+    //TODO: Open Deposit
+    private final By Deposit=By.xpath("//a[normalize-space()='Deposit']");
+
+    public P02_Profile opendeposit()
+    {
+        try {
+            shortWait(driver).until(ExpectedConditions.elementToBeClickable(this.Deposit));
+            driver.findElement(this.Deposit).click();
+        }catch (TimeoutException ex){
+            ex.printStackTrace();
+        }
+        return this;
+    }
+
+
 
 }

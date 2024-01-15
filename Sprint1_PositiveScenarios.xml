@@ -48,11 +48,32 @@
 
 
 
-    <test name="Check Creat new Account Function">
+<!--    <test name="Check Creat new Account Function">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC05_New_Account">-->
+<!--                <methods>-->
+<!--                    <include name="opennewaccount_P"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!--    <test name="Check Edit Account Function">-->
+    <!--        <classes>-->
+<!--                <class name="testcases.TC06_Edit_Account">-->
+    <!--                <methods>-->
+    <!--                    <include name="opennewaccount_P"/>-->
+    <!--                </methods>-->
+    <!--            </class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+
+    <test name="Check Deposit Function">
         <classes>
-            <class name="testcases.TC05_New_Account">
+            <class name="testcases.TC07_Deposit">
                 <methods>
-                    <include name="opennewaccount_P"/>
+                    <include name="deposit_P"/>
                 </methods>
             </class>
         </classes>
